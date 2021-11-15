@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Snack Details</h1>
+    <li id="li-main">
+        <h3>{{object.name}}</h3>
+        <p id="purchaser">Purchaser: <span>{{object.purchaser}}</span></p>
+        <p id="description">{{object.description}}</p>
+  </li>
+{% endblock content %}
